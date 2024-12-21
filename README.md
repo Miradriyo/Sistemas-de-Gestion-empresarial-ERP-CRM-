@@ -27,6 +27,15 @@ También hay que gestionar a los empleados de la empresa, con su código de empl
 **Enunciado:**
 Seguimos con nuestro proyecto de ERP, al que vamos a añadir un nuevo elemento, los almacenes, de los que necesitamos disponer de un código de almacén, nombre de almacén y la ubicación en la que se encuentra. Y estos almacenes hay que reflejarlos en las facturas de compras y de ventas, para saber adónde hemos llevado los productos que hemos comprado o de qué almacén hemos enviado los productos vendidos.
 
+## Tarea 4: Diseño de interfaces
+Preparar el documento del proyecto añadiendo el modelo E/R antes creado y añadiendo un nuevo apartado con los interfaces previstos para los distintos procesos a gestionar en el ERP (el front), distinguiendo como mínimo los apartados siguientes:
+
+Interfaz de acceso (login) 
+Interfaz principal del ERP (menú principal)
+Interfaz para las tablas principales o "maestras" (clientes, proveedores, personal, productos, ...)
+Interfaz para las operaciones de venta, compra, pedidos, etc
+Notas: Lo ideal es aportar bocetos, no hay que programar aún nada.
+
 ## Contenido de la carpeta: 
 
 * **tarea2.drawio**
