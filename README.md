@@ -22,11 +22,17 @@ De las compras y ventas, como mínimo las facturas con la cabecera y el detalle 
 
 También hay que gestionar a los empleados de la empresa, con su código de empleado, nombre, correo electrónico, teléfono. Estos empleados son los que realizan las facturas, de forma que un empleado puede gestionar muchas facturas diferentes, pero una factura sólo puede ser gestionada por un empleado.
 
+## Tarea 3: Tarea 3 - Modelo E/R (almacenes)
 
+**Enunciado:**
+Seguimos con nuestro proyecto de ERP, al que vamos a añadir un nuevo elemento, los almacenes, de los que necesitamos disponer de un código de almacén, nombre de almacén y la ubicación en la que se encuentra. Y estos almacenes hay que reflejarlos en las facturas de compras y de ventas, para saber adónde hemos llevado los productos que hemos comprado o de qué almacén hemos enviado los productos vendidos.
 
-## Contenido de la carpeta: ##
+## Contenido de la carpeta: 
 
 * **tarea2.drawio**
+* **tarea3.drawio**
 
-* Herramientas utilizadas Draw.io Figma
+## Herramientas utilizadas 
+* **Draw.io**
+* **Figma** 
 
