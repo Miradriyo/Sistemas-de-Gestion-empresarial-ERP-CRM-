@@ -1,10 +1,11 @@
-# Sistemas-de-Gestion-empresarial-ERP-CRM-
+# 🏢 Sistemas-de-Gestion-empresarial-ERP-CRM
 Proyecto creado en clase 
-# Proyecto ERP
+
+# 💼 Proyecto ERP
 
 Este repositorio alberga los ejercicios desarrollados en clase para la creación de un ERP. Cada carpeta representa una tarea y contiene los archivos correspondientes.
 
-## Tarea 2: Modelo E/R para la BD del ERP
+## 📊 Tarea 2: Modelo E/R para la BD del ERP
 
 **Enunciado:**
 
@@ -22,26 +23,69 @@ De las compras y ventas, como mínimo las facturas con la cabecera y el detalle 
 
 También hay que gestionar a los empleados de la empresa, con su código de empleado, nombre, correo electrónico, teléfono. Estos empleados son los que realizan las facturas, de forma que un empleado puede gestionar muchas facturas diferentes, pero una factura sólo puede ser gestionada por un empleado.
 
-## Tarea 3: Tarea 3 - Modelo E/R (almacenes)
+### 📝 Datos a considerar:
+- 👥 **Clientes/Proveedores:**
+ * Código
+ * Nombre 
+ * NIF
+ * Dirección
+ * Población
+ * Teléfono 
+ * Email
+
+- 📦 **Productos/Servicios:**
+ * Código
+ * Nombre
+ * Precio compra
+ * Precio venta
+ * IVA
+
+- 👨‍💼 **Empleados:**
+ * Código empleado
+ * Nombre
+ * Email
+ * Teléfono
+
+## 🏭 Tarea 3: Modelo E/R (almacenes)
 
 **Enunciado:**
 Seguimos con nuestro proyecto de ERP, al que vamos a añadir un nuevo elemento, los almacenes, de los que necesitamos disponer de un código de almacén, nombre de almacén y la ubicación en la que se encuentra. Y estos almacenes hay que reflejarlos en las facturas de compras y de ventas, para saber adónde hemos llevado los productos que hemos comprado o de qué almacén hemos enviado los productos vendidos.
 
-## Tarea 4: Diseño de interfaces
-Preparar el documento del proyecto añadiendo el modelo E/R antes creado y añadiendo un nuevo apartado con los interfaces previstos para los distintos procesos a gestionar en el ERP (el front), distinguiendo como mínimo los apartados siguientes:
 
-* Interfaz de acceso (login) 
-* Interfaz principal del ERP (menú principal)
-* Interfaz para las tablas principales o "maestras" (clientes, proveedores, personal, productos, ...)
-* Interfaz para las operaciones de venta, compra, pedidos, etc
+### 📍 Datos de Almacenes:
+- Código de almacén
+- Nombre de almacén
+- Ubicación
 
-## Contenido de la carpeta: 
+## 🖥️ Tarea 4: Diseño de interfaces
 
-* **tarea2.drawio**
-* **tarea3.drawio**
-* **Login.png**
+### 🎨 Interfaces a diseñar:
+* 🔐 Interfaz de acceso (login) 
+* 📱 Interfaz principal del ERP (menú principal)
+* 📋 Interfaz para tablas maestras:
+     - Clientes
+     - Proveedores
+     - Personal
+     - Productos
+* 💰 Interfaz para operaciones:
+     - Ventas
+     - Compras
+     - Pedidos
 
-## Herramientas utilizadas 
-* **Draw.io**
-* **Figma** 
+## 📁 Contenido de la carpeta: 
+* 📊 **tarea2.drawio**
+* 📊 **tarea3.drawio**
+* 🖼️ **Login.png**
+
+## 🛠️ Herramientas utilizadas 
+* 📐 **Draw.io** - _Diseño de diagramas_
+* 🎨 **Figma** - _Diseño de interfaces_
+
+
+
+
+
+
+
+
 
