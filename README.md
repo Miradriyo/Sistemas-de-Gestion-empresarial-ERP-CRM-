@@ -30,16 +30,16 @@ Seguimos con nuestro proyecto de ERP, al que vamos a añadir un nuevo elemento, 
 ## Tarea 4: Diseño de interfaces
 Preparar el documento del proyecto añadiendo el modelo E/R antes creado y añadiendo un nuevo apartado con los interfaces previstos para los distintos procesos a gestionar en el ERP (el front), distinguiendo como mínimo los apartados siguientes:
 
-Interfaz de acceso (login) 
-Interfaz principal del ERP (menú principal)
-Interfaz para las tablas principales o "maestras" (clientes, proveedores, personal, productos, ...)
-Interfaz para las operaciones de venta, compra, pedidos, etc
-Notas: Lo ideal es aportar bocetos, no hay que programar aún nada.
+* Interfaz de acceso (login) 
+* Interfaz principal del ERP (menú principal)
+* Interfaz para las tablas principales o "maestras" (clientes, proveedores, personal, productos, ...)
+* Interfaz para las operaciones de venta, compra, pedidos, etc
 
 ## Contenido de la carpeta: 
 
 * **tarea2.drawio**
 * **tarea3.drawio**
+* **Login.png**
 
 ## Herramientas utilizadas 
 * **Draw.io**
