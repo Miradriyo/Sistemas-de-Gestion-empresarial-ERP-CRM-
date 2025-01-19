@@ -1,11 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Menú Principal</title>
+    <link rel="stylesheet" href="style_menu.css">
+    <script src="calendario.js" defer></script>
 </head>
 <body>
-    <p>este es el menu</p>
+    <header>
+        <div class="header">
+            <h1>Menú Principal</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class = "menu">
+            <div class="columna_derecha">
+                <section class="gestion-comercial">
+                    <h2>Gestión Comercial</h2>
+                    <div class="buttons">
+                        <button>
+                            <img src="img/Clientes_icon.png" alt="icono Clientes">
+                            <span>Clientes</span>
+                        </button>
+                        <button>
+                            <img src="img/proveedores_icon.png" alt="icono proveedores">
+                            <span>Proveedores</span>                            </button>
+                        <button>
+                            <img src="img/ventas_icon.png" alt="icono ventas">
+                            <span>Ventas</span>
+                        </button>
+                        <button>
+                            <img src="img/Compras_icon.png" alt="icono compras">
+                            <span>Compras</span>
+                        </button>
+                        <button>
+                            <img src="img/Almacén_icon.png" alt="icono pedidos">
+                            <span>Pedidos</span>
+                        </button>
+                    </div>
+                </section>
+            </div>
+            <div class="columna_izquierda">
+                <section class="rrhh">
+                    <h2>RRHH</h2>
+                    <button>
+                        <img src="img/Empleados_icon.png" alt="icono empleados">
+                        <span>Empleados</span>
+                    </button>
+                </section>
+                <section class="Inventario">
+                    <h2>Inventario</h2>
+                        <button>
+                            <img src="img/productos_icon.png" alt="icono empleados">
+                            <span>Productos</span>
+                        </button>
+                </section>
+            </div>
+        </div>
+        <section class="Calendario">
+            <div class="calendar">
+                <div class="calendar__info">
+                    <div class="calendar__prev" id="prev-month">&#9664;</div>
+                    <div class="calendar__month" id="month"></div>
+                    <div class="calendar__year" id="year"></div>
+                    <div class="calendar__next" id="next-month">&#9654;</div>
+                </div>
+            
+                <div class="calendar__week">
+                    <div class="calendar__day calendar__item">M</div>
+                    <div class="calendar__day calendar__item">T</div>
+                    <div class="calendar__day calendar__item">X</div>
+                    <div class="calendar__day calendar__item">J</div>
+                    <div class="calendar__day calendar__item">V</div>
+                    <div class="calendar__day calendar__item">S</div>
+                    <div class="calendar__day calendar__item">D</div>
+                </div>
+            
+                <div class="calendar__dates" id="dates"></div>
+            </div>
+            
+        </section>
+        
+            
+
+        </div>
+    </main>
+
 </body>
 </html>
