@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu_lateral">
+        <a class="menu-item">
+            <img src="img/clientes.svg" alt="icono"><span>Clientes</span>
+        </a>
+        <a class="menu-item">
+            <img src="img/proveedores.svg" alt="icono"><span>Proveedores</span>
+        </a>
+        <a class="menu-item">
+            <img src="img/pedidos.svg" alt="icono"><span>Pedidos</span>
+        </a>
+        <a class="menu-item">
+            <img src="img/compras.png" alt="icono"><span>Compras</span>
+        </a>
+        <a class="menu-item">
+            <img src="img/productos.png" alt=""><span>Productos</span>
+        </a>
+        <a class="menu-item">
+            <img src="img/ventas.png" alt=""><span>Ventas</span>
+        </a>
+        <button class="logout-boton">
+            <img src="img/logout.png" alt="icono">Logout
+        </button>
+    </div>
+
+    <div class="menu_principal">
+        <div class="top-bar">
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="user-profile">
+                <span>Nombre usuario conectado</span>
+            </div>
+        </div>
+
+        <div class="botones_opciones">
+            <button class="boton">
+                <img src="img/ordenar.png" alt="icono"> Ordenar
+            </button>
+            <button class="boton">
+                <img src="img/filtro.svg" alt="icono"> Filtro
+            </button>
+            <div style="flex: 1"></div>
+            <button class="boton">
+                <img src="img/editar.png" alt="icono">Editar Cliente
+            </button>
+            <button class="boton">
+                <img src="img/añadir.png" alt="icono"> Añadir Cliente
+            </button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID CLIENTE</th>
+                    <th>NOMBRE</th>
+                    <th>APELLIDOS</th>
+                    <th>DNI</th>
+                    <th>TELF</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

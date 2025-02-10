@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+.menu_lateral{
+    width: 250px;
+    background-color: #7A9D54;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu-item {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.menu-item:hover{
+    background-color: white;
+    color: #2E5BA8;
+}
+
+.menu-item i {
+    width: 20px;
+}
+
+.menu_principal{
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:#7A9D54;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    flex: 1;
+    max-width: 600px;
+    position: relative;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+}
+
+.search-bar i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.botones_opciones {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.boton {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+
+}
+
+img{
+    height: 20px;
+    width: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.logout-boton {
+    margin-top: auto;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+.logout-btn:hover {
+    background-color: white;
+    color: #2E5BA8;
+}
